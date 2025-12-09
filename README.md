@@ -5,6 +5,11 @@
 [![R](https://img.shields.io/badge/R-4.0+-blue.svg)](https://www.r-project.org/)
 [![Java](https://img.shields.io/badge/Java-11+-orange.svg)](https://www.java.com/)
 
+</br>
+<img width="1484" height="851" alt="image" src="https://github.com/user-attachments/assets/bea4ae3b-52ba-4a68-805b-ee32fb0df7ae" />
+
+</br>
+
 An intelligent pricing platform for online retail that models customer purchase rates using Gamma-Poisson mixtures to capture overdispersion in buying behavior. The system implements real-time price optimization algorithms that adjust product prices based on competitor analysis, inventory levels, and demand elasticity, with comprehensive A/B testing frameworks to measure price sensitivity across customer segments.
 
 ## 🎯 Project Overview
@@ -43,53 +48,10 @@ Dynamic-Pricing-Engine/
 ├── price_optimizer.cpp        # C++ optimization algorithms
 ├── pricing_analytics.R        # R statistical analysis scripts
 ├── PricingService.java        # Java enterprise service layer
+├── pricing_dashboard.tsx           # TypeScript Interactive Artifact
 └── README.md                  # Project documentation
 ```
 
-## 📊 Directory Structure
-
-```
-.
-├── pricing_engine.py          # Main Python pricing engine
-│   ├── GammaPoissonMixture    # Demand modeling with overdispersion
-│   ├── PriceElasticityModel   # Elasticity calculation and prediction
-│   ├── BayesianABTest         # A/B testing framework
-│   ├── BayesianOptimizer      # Bayesian optimization engine
-│   └── DynamicPricingEngine   # Central orchestration class
-│
-├── pricing_api.php            # REST API endpoints
-│   ├── GET /products          # Retrieve product catalog
-│   ├── GET /pricing-history   # Historical pricing data
-│   ├── GET /elasticity        # Elasticity coefficients
-│   ├── GET /ab-tests          # A/B test results
-│   ├── POST /optimize-price   # Price optimization endpoint
-│   └── POST /create-ab-test   # Create new A/B test
-│
-├── app.vue                    # Nuxt.js application
-│   ├── DashboardView          # Main metrics dashboard
-│   ├── ProductsView           # Product management interface
-│   ├── ABTestView             # A/B testing dashboard
-│   └── AnalyticsView          # Advanced analytics view
-│
-├── price_optimizer.cpp        # C++ optimization engine
-│   ├── GammaPoissonModel      # High-performance demand model
-│   ├── ElasticityCalculator   # Price elasticity computation
-│   ├── PriceOptimizer         # Golden section search optimizer
-│   └── BayesianOptimizer      # Expected improvement acquisition
-│
-├── pricing_analytics.R        # R analytics suite
-│   ├── gamma_poisson_analysis # Negative binomial fitting
-│   ├── calculate_price_elasticity # Log-log regression
-│   ├── bayesian_ab_test       # Beta-binomial conjugate analysis
-│   ├── demand_forecasting     # ARIMA time series forecasting
-│   └── revenue_attribution_analysis # Multiple regression attribution
-│
-└── PricingService.java        # Java service layer
-    ├── OptimizePrice          # Price optimization service
-    ├── TrainElasticityModel   # Model training service
-    ├── ABTestManager          # A/B test management
-    └── RevenueMetrics         # Revenue tracking and reporting
-```
 
 ## 🚀 Getting Started
 
@@ -422,24 +384,6 @@ Contributions are welcome! Please follow these steps:
 4. Push to the branch (`git push origin feature/amazing-feature`)
 5. Open a Pull Request
 
-## 📧 Contact
-
-For questions, issues, or collaboration opportunities, please open an issue on GitHub.
-
-## 🙏 Acknowledgments
-
-- Gamma-Poisson model implementation based on research in marketing science
-- Bayesian optimization framework inspired by GPyOpt
-- A/B testing methodology follows industry best practices
-- Dashboard design influenced by modern business intelligence tools
-
-## 📚 References
-
-1. Morrison, D. G., & Schmittlein, D. C. (1988). "Generalizing the NBD model for customer purchases"
-2. Rasmussen, C. E., & Williams, C. K. I. (2006). "Gaussian Processes for Machine Learning"
-3. Kohavi, R., & Longbotham, R. (2017). "Online Controlled Experiments and A/B Testing"
-4. Talluri, K. T., & Van Ryzin, G. J. (2006). "The Theory and Practice of Revenue Management"
-
 ---
 
-**Built with ❤️ for data-driven pricing optimization**
+**⭐ Star this repository if you find it helpful!**
